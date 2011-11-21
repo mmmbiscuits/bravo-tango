@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		683084E6147A5F93005B29F4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 683084E5147A5F93005B29F4 /* UIKit.framework */; };
+		683084E8147A5F93005B29F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 683084E7147A5F93005B29F4 /* Foundation.framework */; };
+		683084EA147A5F93005B29F4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 683084E9147A5F93005B29F4 /* CoreGraphics.framework */; };
+		683084F0147A5F93005B29F4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 683084EE147A5F93005B29F4 /* InfoPlist.strings */; };
+		683084F2147A5F93005B29F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 683084F1147A5F93005B29F4 /* main.m */; };
+		683084F6147A5F93005B29F4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 683084F5147A5F93005B29F4 /* AppDelegate.m */; };
+		683084F9147A5F93005B29F4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 683084F8147A5F93005B29F4 /* ViewController.m */; };
+		683084FC147A5F93005B29F4 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 683084FA147A5F93005B29F4 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		683084E1147A5F93005B29F4 /* bravo tango.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bravo tango.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		683084E5147A5F93005B29F4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		683084E7147A5F93005B29F4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		683084E9147A5F93005B29F4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		683084ED147A5F93005B29F4 /* bravo tango-Info.plist */ = {isa = PBXFileReference; path = "bravo tango-Info.plist"; sourceTree = "<group>"; };
+		683084EF147A5F93005B29F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		683084F1147A5F93005B29F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		683084F3147A5F93005B29F4 /* bravo tango-Prefix.pch */ = {isa = PBXFileReference; path = "bravo tango-Prefix.pch"; sourceTree = "<group>"; };
+		683084F4147A5F93005B29F4 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		683084F5147A5F93005B29F4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		683084F7147A5F93005B29F4 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		683084F8147A5F93005B29F4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		683084FB147A5F93005B29F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		683084DE147A5F93005B29F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				683084E6147A5F93005B29F4 /* UIKit.framework in Frameworks */,
+				683084E8147A5F93005B29F4 /* Foundation.framework in Frameworks */,
+				683084EA147A5F93005B29F4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		683084D6147A5F93005B29F4 = {
+			isa = PBXGroup;
+			children = (
+				683084EB147A5F93005B29F4 /* bravo tango */,
+				683084E4147A5F93005B29F4 /* Frameworks */,
+				683084E2147A5F93005B29F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		683084E2147A5F93005B29F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				683084E1147A5F93005B29F4 /* bravo tango.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		683084E4147A5F93005B29F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				683084E5147A5F93005B29F4 /* UIKit.framework */,
+				683084E7147A5F93005B29F4 /* Foundation.framework */,
+				683084E9147A5F93005B29F4 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		683084EB147A5F93005B29F4 /* bravo tango */ = {
+			isa = PBXGroup;
+			children = (
+				683084F4147A5F93005B29F4 /* AppDelegate.h */,
+				683084F5147A5F93005B29F4 /* AppDelegate.m */,
+				683084F7147A5F93005B29F4 /* ViewController.h */,
+				683084F8147A5F93005B29F4 /* ViewController.m */,
+				683084FA147A5F93005B29F4 /* ViewController.xib */,
+				683084EC147A5F93005B29F4 /* Supporting Files */,
+			);
+			path = "bravo tango";
+			sourceTree = "<group>";
+		};
+		683084EC147A5F93005B29F4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				683084ED147A5F93005B29F4 /* bravo tango-Info.plist */,
+				683084EE147A5F93005B29F4 /* InfoPlist.strings */,
+				683084F1147A5F93005B29F4 /* main.m */,
+				683084F3147A5F93005B29F4 /* bravo tango-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		683084E0147A5F93005B29F4 /* bravo tango */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 683084FF147A5F93005B29F4 /* Build configuration list for PBXNativeTarget "bravo tango" */;
+			buildPhases = (
+				683084DD147A5F93005B29F4 /* Sources */,
+				683084DE147A5F93005B29F4 /* Frameworks */,
+				683084DF147A5F93005B29F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "bravo tango";
+			productName = "bravo tango";
+			productReference = 683084E1147A5F93005B29F4 /* bravo tango.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		683084D8147A5F93005B29F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = NA;
+			};
+			buildConfigurationList = 683084DB147A5F93005B29F4 /* Build configuration list for PBXProject "bravo tango" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 683084D6147A5F93005B29F4;
+			productRefGroup = 683084E2147A5F93005B29F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				683084E0147A5F93005B29F4 /* bravo tango */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		683084DF147A5F93005B29F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				683084F0147A5F93005B29F4 /* InfoPlist.strings in Resources */,
+				683084FC147A5F93005B29F4 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		683084DD147A5F93005B29F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				683084F2147A5F93005B29F4 /* main.m in Sources */,
+				683084F6147A5F93005B29F4 /* AppDelegate.m in Sources */,
+				683084F9147A5F93005B29F4 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		683084EE147A5F93005B29F4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				683084EF147A5F93005B29F4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		683084FA147A5F93005B29F4 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				683084FB147A5F93005B29F4 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		683084FD147A5F93005B29F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		683084FE147A5F93005B29F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68308500147A5F93005B29F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bravo tango/bravo tango-Prefix.pch";
+				INFOPLIST_FILE = "bravo tango/bravo tango-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		68308501147A5F93005B29F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bravo tango/bravo tango-Prefix.pch";
+				INFOPLIST_FILE = "bravo tango/bravo tango-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		683084DB147A5F93005B29F4 /* Build configuration list for PBXProject "bravo tango" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				683084FD147A5F93005B29F4 /* Debug */,
+				683084FE147A5F93005B29F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		683084FF147A5F93005B29F4 /* Build configuration list for PBXNativeTarget "bravo tango" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68308500147A5F93005B29F4 /* Debug */,
+				68308501147A5F93005B29F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 683084D8147A5F93005B29F4 /* Project object */;
+}
