@@ -15,6 +15,7 @@
 		683084F6147A5F93005B29F4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 683084F5147A5F93005B29F4 /* AppDelegate.m */; };
 		683084F9147A5F93005B29F4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 683084F8147A5F93005B29F4 /* ViewController.m */; };
 		683084FC147A5F93005B29F4 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 683084FA147A5F93005B29F4 /* ViewController.xib */; };
+		6830850B147A730A005B29F4 /* redbutton2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6830850A147A730A005B29F4 /* redbutton2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		683084F7147A5F93005B29F4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		683084F8147A5F93005B29F4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		683084FB147A5F93005B29F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		6830850A147A730A005B29F4 /* redbutton2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redbutton2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				683084F5147A5F93005B29F4 /* AppDelegate.m */,
 				683084F7147A5F93005B29F4 /* ViewController.h */,
 				683084F8147A5F93005B29F4 /* ViewController.m */,
+				6830850A147A730A005B29F4 /* redbutton2.png */,
 				683084FA147A5F93005B29F4 /* ViewController.xib */,
 				683084EC147A5F93005B29F4 /* Supporting Files */,
 			);
@@ -151,6 +154,7 @@
 			files = (
 				683084F0147A5F93005B29F4 /* InfoPlist.strings in Resources */,
 				683084FC147A5F93005B29F4 /* ViewController.xib in Resources */,
+				6830850B147A730A005B29F4 /* redbutton2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +244,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "bravo tango/bravo tango-Prefix.pch";
 				INFOPLIST_FILE = "bravo tango/bravo tango-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -251,6 +256,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "bravo tango/bravo tango-Prefix.pch";
 				INFOPLIST_FILE = "bravo tango/bravo tango-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

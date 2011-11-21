@@ -22,6 +22,8 @@
     self.viewController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
+    [application setStatusBarStyle:UIStatusBarStyleBlackOpaque];
+
     return YES;
 }
 

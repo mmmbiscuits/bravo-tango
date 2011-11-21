@@ -12,5 +12,7 @@
 @property (strong, nonatomic) IBOutlet UITextField *inputTextSection;
 @property (strong, nonatomic) IBOutlet UITextView *outputTextField;
 - (IBAction)gobutton:(id)sender;
+-(NSString*) letMeCheckThatForYou :(NSString*)_checkMoi;
+
 
 @end
