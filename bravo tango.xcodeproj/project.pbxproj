@@ -16,6 +16,8 @@
 		683084F9147A5F93005B29F4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 683084F8147A5F93005B29F4 /* ViewController.m */; };
 		683084FC147A5F93005B29F4 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 683084FA147A5F93005B29F4 /* ViewController.xib */; };
 		6830850B147A730A005B29F4 /* redbutton2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6830850A147A730A005B29F4 /* redbutton2.png */; };
+		68308511147A7EDD005B29F4 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68308510147A7EDD005B29F4 /* Twitter.framework */; };
+		68308513147A8201005B29F4 /* tweetButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 68308512147A8201005B29F4 /* tweetButton.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,8 @@
 		683084F8147A5F93005B29F4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		683084FB147A5F93005B29F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		6830850A147A730A005B29F4 /* redbutton2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redbutton2.png; sourceTree = "<group>"; };
+		68308510147A7EDD005B29F4 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		68308512147A8201005B29F4 /* tweetButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tweetButton.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68308511147A7EDD005B29F4 /* Twitter.framework in Frameworks */,
 				683084E6147A5F93005B29F4 /* UIKit.framework in Frameworks */,
 				683084E8147A5F93005B29F4 /* Foundation.framework in Frameworks */,
 				683084EA147A5F93005B29F4 /* CoreGraphics.framework in Frameworks */,
@@ -52,6 +57,7 @@
 		683084D6147A5F93005B29F4 = {
 			isa = PBXGroup;
 			children = (
+				68308510147A7EDD005B29F4 /* Twitter.framework */,
 				683084EB147A5F93005B29F4 /* bravo tango */,
 				683084E4147A5F93005B29F4 /* Frameworks */,
 				683084E2147A5F93005B29F4 /* Products */,
@@ -83,6 +89,7 @@
 				683084F5147A5F93005B29F4 /* AppDelegate.m */,
 				683084F7147A5F93005B29F4 /* ViewController.h */,
 				683084F8147A5F93005B29F4 /* ViewController.m */,
+				68308512147A8201005B29F4 /* tweetButton.png */,
 				6830850A147A730A005B29F4 /* redbutton2.png */,
 				683084FA147A5F93005B29F4 /* ViewController.xib */,
 				683084EC147A5F93005B29F4 /* Supporting Files */,
@@ -155,6 +162,7 @@
 				683084F0147A5F93005B29F4 /* InfoPlist.strings in Resources */,
 				683084FC147A5F93005B29F4 /* ViewController.xib in Resources */,
 				6830850B147A730A005B29F4 /* redbutton2.png in Resources */,
+				68308513147A8201005B29F4 /* tweetButton.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

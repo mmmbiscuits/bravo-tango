@@ -8,7 +8,11 @@
 #import <QuartzCore/QuartzCore.h>
 #import "ViewController.h"
 
+#import <Twitter/Twitter.h>
+#define letOSHandleLogin FALSE
+
 @implementation ViewController
+@synthesize tweetButtonOutlet;
 @synthesize inputTextSection;
 @synthesize outputTextField;
 
@@ -23,6 +27,18 @@
 - (void)viewDidLoad
 {
     outputTextField.layer.cornerRadius = 5.0;
+    Boolean _canTweet = NO;
+    if ([TWTweetComposeViewController canSendTweet]){
+        _canTweet = YES;
+    }
+
+    if (letOSHandleLogin) {
+        //errorLabel.hidden = YES;
+    } else{
+        tweetButtonOutlet.hidden = !(_canTweet);      //If able to tweet, show button
+        //errorLabel.hidden = _canTweet;          //If able to tweet, hide error
+    }
+
 
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
@@ -32,6 +48,7 @@
 {
     [self setOutputTextField:nil];
     [self setInputTextSection:nil];
+    [self setTweetButtonOutlet:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -115,6 +132,26 @@
     return BravoOscarOscarBravoIndiaEchoSierra;
 }
 
+- (IBAction)TweetThis {
+    //Create the tweet sheet
+    TWTweetComposeViewController *tweetSheet = [[TWTweetComposeViewController alloc] init];
+    
+    //Customize the tweet sheet here
+    //Add a tweet message
+    NSString *testString = @" wants to shoot  "; // formatting is tricky forgot how :(
+    NSString *whatTheTitleIs = [NSString stringWithFormat:outputTextField.text];
+    NSString *tweetContentString = [testString stringByAppendingString:whatTheTitleIs];
+    
+    [tweetSheet setInitialText:( tweetContentString )];
+    //Set a blocking handler for the tweet sheet
+    tweetSheet.completionHandler = ^(TWTweetComposeViewControllerResult result){
+        [self dismissModalViewControllerAnimated:YES];
+    };
+    
+    //Show the tweet sheet!
+    [self presentModalViewController:tweetSheet animated:YES];
+}
+
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     // Return YES for supported orientations
@@ -156,7 +193,8 @@
 #pragma mark -
 #pragma mark Dissmissing keyboard -
 - (IBAction)backgroundTap:(id)sender {       // background tap dismiss keyboard
-    
+    [inputTextSection resignFirstResponder];
+    [outputTextField resignFirstResponder];
     
 }
 -(IBAction)textFieldDoneEditing:(id)sender{   // dismissing the keyboard

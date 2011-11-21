@@ -13,6 +13,8 @@
 @property (strong, nonatomic) IBOutlet UITextView *outputTextField;
 - (IBAction)gobutton:(id)sender;
 -(NSString*) letMeCheckThatForYou :(NSString*)_checkMoi;
+- (IBAction)TweetThis;
+@property (strong, nonatomic) IBOutlet UIButton *tweetButtonOutlet;
 
 
 @end
