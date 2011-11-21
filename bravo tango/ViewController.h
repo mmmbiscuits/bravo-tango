@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UITextField *inputTextSection;
+@property (strong, nonatomic) IBOutlet UITextView *outputTextField;
+- (IBAction)gobutton:(id)sender;
 
 @end

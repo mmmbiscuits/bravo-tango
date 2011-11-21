@@ -22,13 +22,13 @@
 		683084E5147A5F93005B29F4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		683084E7147A5F93005B29F4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		683084E9147A5F93005B29F4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		683084ED147A5F93005B29F4 /* bravo tango-Info.plist */ = {isa = PBXFileReference; path = "bravo tango-Info.plist"; sourceTree = "<group>"; };
+		683084ED147A5F93005B29F4 /* bravo tango-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "bravo tango-Info.plist"; sourceTree = "<group>"; };
 		683084EF147A5F93005B29F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		683084F1147A5F93005B29F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		683084F3147A5F93005B29F4 /* bravo tango-Prefix.pch */ = {isa = PBXFileReference; path = "bravo tango-Prefix.pch"; sourceTree = "<group>"; };
-		683084F4147A5F93005B29F4 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		683084F3147A5F93005B29F4 /* bravo tango-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bravo tango-Prefix.pch"; sourceTree = "<group>"; };
+		683084F4147A5F93005B29F4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		683084F5147A5F93005B29F4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		683084F7147A5F93005B29F4 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		683084F7147A5F93005B29F4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		683084F8147A5F93005B29F4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		683084FB147A5F93005B29F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
