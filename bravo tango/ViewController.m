@@ -121,12 +121,17 @@ BravoOscarOscarBravoIndiaEchoSierra = @"Whiskey";        }
         if (([_checkMoi isEqualToString:@"x"]) || ([_checkMoi isEqualToString:@"X"])){
 BravoOscarOscarBravoIndiaEchoSierra = @"Xray";        }
         if (([_checkMoi isEqualToString:@"y"]) || ([_checkMoi isEqualToString:@"Y"])){
-BravoOscarOscarBravoIndiaEchoSierra = @"Whiskey";        }
+BravoOscarOscarBravoIndiaEchoSierra = @"Whiskey ";        }
         if (([_checkMoi isEqualToString:@"z"]) || ([_checkMoi isEqualToString:@"Z"])){
-BravoOscarOscarBravoIndiaEchoSierra = @"Zulu";        }//////]endAlphabet
+BravoOscarOscarBravoIndiaEchoSierra = @"Zulu ";        }//////]endAlphabet
 
         NSString * stringToAppend = outputTextField.text;
-        outputTextField.text = [stringToAppend stringByAppendingString:BravoOscarOscarBravoIndiaEchoSierra];
+        if (BravoOscarOscarBravoIndiaEchoSierra != @""){
+            outputTextField.text = [stringToAppend stringByAppendingString:BravoOscarOscarBravoIndiaEchoSierra];
+        } else {
+            // new line? 
+        }
+        BravoOscarOscarBravoIndiaEchoSierra = nil;
         i++;
 }
     
