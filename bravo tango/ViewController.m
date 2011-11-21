@@ -138,9 +138,8 @@
     
     //Customize the tweet sheet here
     //Add a tweet message
-    NSString *testString = @" wants to shoot  "; // formatting is tricky forgot how :(
     NSString *whatTheTitleIs = [NSString stringWithFormat:outputTextField.text];
-    NSString *tweetContentString = [testString stringByAppendingString:whatTheTitleIs];
+    NSString *tweetContentString = whatTheTitleIs;
     
     [tweetSheet setInitialText:( tweetContentString )];
     //Set a blocking handler for the tweet sheet

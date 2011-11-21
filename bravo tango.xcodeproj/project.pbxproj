@@ -18,6 +18,7 @@
 		6830850B147A730A005B29F4 /* redbutton2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6830850A147A730A005B29F4 /* redbutton2.png */; };
 		68308511147A7EDD005B29F4 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68308510147A7EDD005B29F4 /* Twitter.framework */; };
 		68308513147A8201005B29F4 /* tweetButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 68308512147A8201005B29F4 /* tweetButton.png */; };
+		6890FB17147A85A90024DC5E /* 200px-NATO_flag.png in Resources */ = {isa = PBXBuildFile; fileRef = 6890FB16147A85A90024DC5E /* 200px-NATO_flag.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		6830850A147A730A005B29F4 /* redbutton2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redbutton2.png; sourceTree = "<group>"; };
 		68308510147A7EDD005B29F4 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
 		68308512147A8201005B29F4 /* tweetButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tweetButton.png; sourceTree = "<group>"; };
+		6890FB16147A85A90024DC5E /* 200px-NATO_flag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "200px-NATO_flag.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 		683084D6147A5F93005B29F4 = {
 			isa = PBXGroup;
 			children = (
+				6890FB16147A85A90024DC5E /* 200px-NATO_flag.png */,
 				68308510147A7EDD005B29F4 /* Twitter.framework */,
 				683084EB147A5F93005B29F4 /* bravo tango */,
 				683084E4147A5F93005B29F4 /* Frameworks */,
@@ -163,6 +166,7 @@
 				683084FC147A5F93005B29F4 /* ViewController.xib in Resources */,
 				6830850B147A730A005B29F4 /* redbutton2.png in Resources */,
 				68308513147A8201005B29F4 /* tweetButton.png in Resources */,
+				6890FB17147A85A90024DC5E /* 200px-NATO_flag.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +293,7 @@
 				68308501147A5F93005B29F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
