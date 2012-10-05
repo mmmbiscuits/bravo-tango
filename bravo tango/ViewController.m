@@ -78,57 +78,59 @@
     NSString * BravoOscarOscarBravoIndiaEchoSierra;
     if (([_checkMoi isEqualToString:@"a"]) || ([_checkMoi isEqualToString:@"A"])){
         BravoOscarOscarBravoIndiaEchoSierra = @"Alpha";        }
-    if (([_checkMoi isEqualToString:@"b"]) || ([_checkMoi isEqualToString:@"B"])){
+    else if (([_checkMoi isEqualToString:@"b"]) || ([_checkMoi isEqualToString:@"B"])){
         BravoOscarOscarBravoIndiaEchoSierra = @"Bravo";        }
-    if (([_checkMoi isEqualToString:@"c"]) || ([_checkMoi isEqualToString:@"C"])){
+    else if (([_checkMoi isEqualToString:@"c"]) || ([_checkMoi isEqualToString:@"C"])){
         BravoOscarOscarBravoIndiaEchoSierra = @"Charlie";        }
-    if (([_checkMoi isEqualToString:@"d"]) || ([_checkMoi isEqualToString:@"D"])){
+    else if (([_checkMoi isEqualToString:@"d"]) || ([_checkMoi isEqualToString:@"D"])){
         BravoOscarOscarBravoIndiaEchoSierra = @"Delta";        }
-    if (([_checkMoi isEqualToString:@"e"]) || ([_checkMoi isEqualToString:@"E"])){
+    else if (([_checkMoi isEqualToString:@"e"]) || ([_checkMoi isEqualToString:@"E"])){
         BravoOscarOscarBravoIndiaEchoSierra = @"Echo";        }
-    if (([_checkMoi isEqualToString:@"f"]) || ([_checkMoi isEqualToString:@"F"])){
+    else if (([_checkMoi isEqualToString:@"f"]) || ([_checkMoi isEqualToString:@"F"])){
         BravoOscarOscarBravoIndiaEchoSierra = @"Foxtrot";        }
-    if (([_checkMoi isEqualToString:@"g"]) || ([_checkMoi isEqualToString:@"G"])){
+    else if (([_checkMoi isEqualToString:@"g"]) || ([_checkMoi isEqualToString:@"G"])){
         BravoOscarOscarBravoIndiaEchoSierra = @"Golf";        }
-    if (([_checkMoi isEqualToString:@"h"]) || ([_checkMoi isEqualToString:@"H"])){
+    else if (([_checkMoi isEqualToString:@"h"]) || ([_checkMoi isEqualToString:@"H"])){
         BravoOscarOscarBravoIndiaEchoSierra = @"Hotel";        }
-    if (([_checkMoi isEqualToString:@"i"]) || ([_checkMoi isEqualToString:@"I"])){
+    else if (([_checkMoi isEqualToString:@"i"]) || ([_checkMoi isEqualToString:@"I"])){
         BravoOscarOscarBravoIndiaEchoSierra = @"India";        }
-    if (([_checkMoi isEqualToString:@"j"]) || ([_checkMoi isEqualToString:@"J"])){
+    else if (([_checkMoi isEqualToString:@"j"]) || ([_checkMoi isEqualToString:@"J"])){
         BravoOscarOscarBravoIndiaEchoSierra = @"Juliet";        }
-    if (([_checkMoi isEqualToString:@"k"]) || ([_checkMoi isEqualToString:@"K"])){
+    else if (([_checkMoi isEqualToString:@"k"]) || ([_checkMoi isEqualToString:@"K"])){
         BravoOscarOscarBravoIndiaEchoSierra = @"Kilo";        }
-    if (([_checkMoi isEqualToString:@"l"]) || ([_checkMoi isEqualToString:@"L"])){
+    else if (([_checkMoi isEqualToString:@"l"]) || ([_checkMoi isEqualToString:@"L"])){
         BravoOscarOscarBravoIndiaEchoSierra = @"Lima";        }
-    if (([_checkMoi isEqualToString:@"m"]) || ([_checkMoi isEqualToString:@"M"])){
+    else if (([_checkMoi isEqualToString:@"m"]) || ([_checkMoi isEqualToString:@"M"])){
         BravoOscarOscarBravoIndiaEchoSierra = @"Mike";        }
-    if (([_checkMoi isEqualToString:@"n"]) || ([_checkMoi isEqualToString:@"N"])){
+    else if (([_checkMoi isEqualToString:@"n"]) || ([_checkMoi isEqualToString:@"N"])){
         BravoOscarOscarBravoIndiaEchoSierra = @"November";        }
-    if (([_checkMoi isEqualToString:@"o"]) || ([_checkMoi isEqualToString:@"O"])){
+    else if (([_checkMoi isEqualToString:@"o"]) || ([_checkMoi isEqualToString:@"O"])){
         BravoOscarOscarBravoIndiaEchoSierra = @"Oscar";        }
-    if (([_checkMoi isEqualToString:@"p"]) || ([_checkMoi isEqualToString:@"P"])){
+    else if (([_checkMoi isEqualToString:@"p"]) || ([_checkMoi isEqualToString:@"P"])){
         BravoOscarOscarBravoIndiaEchoSierra = @"Papa";        }
-    if (([_checkMoi isEqualToString:@"q"]) || ([_checkMoi isEqualToString:@"Q"])){
+    else if (([_checkMoi isEqualToString:@"q"]) || ([_checkMoi isEqualToString:@"Q"])){
         BravoOscarOscarBravoIndiaEchoSierra = @"Qubec";        }
-    if (([_checkMoi isEqualToString:@"r"]) || ([_checkMoi isEqualToString:@"R"])){
+    else if (([_checkMoi isEqualToString:@"r"]) || ([_checkMoi isEqualToString:@"R"])){
         BravoOscarOscarBravoIndiaEchoSierra = @"Romeo";        }
-    if (([_checkMoi isEqualToString:@"s"]) || ([_checkMoi isEqualToString:@"S"])){
+    else if (([_checkMoi isEqualToString:@"s"]) || ([_checkMoi isEqualToString:@"S"])){
         BravoOscarOscarBravoIndiaEchoSierra = @"Sierra";        }
-    if (([_checkMoi isEqualToString:@"t"]) || ([_checkMoi isEqualToString:@"T"])){
+    else if (([_checkMoi isEqualToString:@"t"]) || ([_checkMoi isEqualToString:@"T"])){
         BravoOscarOscarBravoIndiaEchoSierra = @"Tango";        }
-    if (([_checkMoi isEqualToString:@"u"]) || ([_checkMoi isEqualToString:@"U"])){
+    else if (([_checkMoi isEqualToString:@"u"]) || ([_checkMoi isEqualToString:@"U"])){
         BravoOscarOscarBravoIndiaEchoSierra = @"Uniform";        }
-    if (([_checkMoi isEqualToString:@"v"]) || ([_checkMoi isEqualToString:@"V"])){
+    else if (([_checkMoi isEqualToString:@"v"]) || ([_checkMoi isEqualToString:@"V"])){
         BravoOscarOscarBravoIndiaEchoSierra = @"Victor";        }
-    if (([_checkMoi isEqualToString:@"w"]) || ([_checkMoi isEqualToString:@"W"])){
+    else if (([_checkMoi isEqualToString:@"w"]) || ([_checkMoi isEqualToString:@"W"])){
         BravoOscarOscarBravoIndiaEchoSierra = @"Whiskey";        }
-    if (([_checkMoi isEqualToString:@"x"]) || ([_checkMoi isEqualToString:@"X"])){
+    else if (([_checkMoi isEqualToString:@"x"]) || ([_checkMoi isEqualToString:@"X"])){
         BravoOscarOscarBravoIndiaEchoSierra = @"Xray";        }
-    if (([_checkMoi isEqualToString:@"y"]) || ([_checkMoi isEqualToString:@"Y"])){
+    else if (([_checkMoi isEqualToString:@"y"]) || ([_checkMoi isEqualToString:@"Y"])){
         BravoOscarOscarBravoIndiaEchoSierra = @"Whiskey ";        }
-    if (([_checkMoi isEqualToString:@"z"]) || ([_checkMoi isEqualToString:@"Z"])){
+    else if (([_checkMoi isEqualToString:@"z"]) || ([_checkMoi isEqualToString:@"Z"])){
         BravoOscarOscarBravoIndiaEchoSierra = @"Zulu ";        }//////]endAlphabet
-
+    else{
+    	BravoOscarOscarBravoIndiaEchoSierra = @" ";
+    }
     return BravoOscarOscarBravoIndiaEchoSierra;
 }
 
